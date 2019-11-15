@@ -11,9 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.utsprogmob.CreateKrsActivity;
-import com.utsprogmob.Model.Krs;
-import com.utsprogmob.R;
+import com.utsprogmob.CreateKrs;
 import com.utsprogmob.Model.Krs;
 import com.utsprogmob.R;
 
@@ -47,7 +45,7 @@ public class KrsAdapter extends RecyclerView.Adapter<KrsAdapter.ViewHolder> {
             @Override
             public void onClick(View view) {
                 if(context != null){
-                    Intent intent = new Intent(context, CreateKrsActivity.class);
+                    Intent intent = new Intent(context, CreateKrs.class);
                     context.startActivity(intent);}
             }
         });

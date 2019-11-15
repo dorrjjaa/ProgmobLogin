@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerViewMahasiswa"></activity>
+        <activity android:name=".CreateKrs"></activity>
+        <activity android:name=".RecyclerViewMahasiswa" />
         <activity android:name=".RecyclerViewKelas" />
         <activity android:name=".RecyclerViewKrs" />
+        <activity android:name=".DataDiriMhs" />
         <activity android:name=".CreateMatkulActivity" />
         <activity android:name=".CreateMhsActivity" />
-        <activity android:name=".CreateKrsActivity" />
         <activity android:name=".Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +24,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".DosenHome" />
+        <activity android:name=".DataDiriAdmin" />
+        <activity android:name=".DataDiriDosen" />
+        <activity android:name=".RecyclerViewMatkul" />
+        <activity android:name=".RecyclerViewListDsn" />
+        <activity android:name=".CreateDosenActivity" />
     </application>
 
 </manifest>

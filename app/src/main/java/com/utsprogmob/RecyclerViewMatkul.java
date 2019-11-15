@@ -11,8 +11,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.progmobuts.Adapter.MatkulAdapter;
-import com.example.progmobuts.Model.Matkul;
+import com.utsprogmob.Adapter.MatkulAdapter;
+import com.utsprogmob.Model.Matkul;
 
 import java.util.ArrayList;
 

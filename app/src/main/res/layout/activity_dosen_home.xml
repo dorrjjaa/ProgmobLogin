@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView4"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnDataDiriDosen" />
+        app:layout_constraintTop_toBottomOf="@+id/btnDataDiri" />
 
     <TextView
         android:id="@+id/textView4"
@@ -27,7 +27,7 @@
         android:text="@string/daf_krs"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnDaftarKrs" />
+        app:layout_constraintTop_toBottomOf="@+id/btnKrs" />
 
     <TextView
         android:id="@+id/textView6"
@@ -38,23 +38,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/btnLihatKelas" />
+        app:layout_constraintTop_toBottomOf="@+id/btnKelas" />
 
     <ImageButton
-        android:id="@+id/btnDataDiriDosen"
+        android:id="@+id/btnDataDiri"
         android:layout_width="96dp"
         android:layout_height="84dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="48dp"
         android:scaleType="centerInside"
-        app:layout_constraintEnd_toStartOf="@+id/btnDaftarKrs"
+        app:layout_constraintEnd_toStartOf="@+id/btnKrs"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/data_diri" />
+        app:srcCompat="@drawable/diri" />
 
     <ImageButton
-        android:id="@+id/btnDaftarKrs"
+        android:id="@+id/btnKrs"
         android:layout_width="96dp"
         android:layout_height="84dp"
         android:layout_marginStart="8dp"
@@ -65,18 +65,18 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/daftar" />
+        app:srcCompat="@drawable/krs" />
 
     <ImageButton
-        android:id="@+id/btnLihatKelas"
+        android:id="@+id/btnKelas"
         android:layout_width="96dp"
         android:layout_height="84dp"
         android:layout_marginTop="48dp"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnDaftarKrs"
+        app:layout_constraintStart_toEndOf="@+id/btnKrs"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kelas" />
+        app:srcCompat="@drawable/search" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

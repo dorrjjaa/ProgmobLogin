@@ -57,7 +57,10 @@ public class RecyclerViewListDsn extends AppCompatActivity {
 
     private void tambahData(){
         dosenList = new ArrayList<>();
-        dosenList.add(new Dosen("001","Argo Wibowo", "S.T, M.T","argo@staff.ukdw.ac.id","Jl. Godean",R.drawable.org));
-        dosenList.add(new Dosen("002","Harianto Kristanto", "Ir. M.M, M.T","hariantok@staff.ukdw.ac.id","Jl. Godean",R.drawable.org));
+        dosenList.add(new Dosen("001","Argo Wibowo", "S.T, M.T","argo@staff.ukdw.ac.id","Jl. Godean",R.drawable.diri));
+        dosenList.add(new Dosen("002","Yetli Oslan", "S.Kom, M.T","yetli@staff.ukdw.ac.id","Jl. Solo",R.drawable.diri));
+        dosenList.add(new Dosen("003","Harianto Kristanto", "Ir. M.M, M.T","hariantok@staff.ukdw.ac.id","Jl. Godean",R.drawable.org));
+        dosenList.add(new Dosen("004","Jong Jek Siang", "Drs. M.Sc","jjs@staff.ukdw.ac.id","Jl. Seturan",R.drawable.org));
+        dosenList.add(new Dosen("005","Erick Kurniawan", "S.Kom, M.Kom","ekurniawan@staff.ukdw.ac.id","Jl. Godean",R.drawable.diri));
     }
 }

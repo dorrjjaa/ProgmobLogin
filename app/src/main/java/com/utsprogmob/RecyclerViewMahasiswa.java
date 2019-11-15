@@ -54,8 +54,8 @@ public class RecyclerViewMahasiswa extends AppCompatActivity {
 
     private void tambahData(){
         mhsList = new ArrayList<>();
-        mhsList.add(new Mahasiswa("72170092","Yos","beni.mulia@si.ukdw.ac.id","Jl.Godean",R.drawable.org));
-        mhsList.add(new Mahasiswa("72170126","Desta","desta@si.ukdw.ac.id","Jl.Godean",R.drawable.org));
-        mhsList.add(new Mahasiswa("72170125","Adrian","adrian@si.ukdw.ac.id","Jl.Gejayan",R.drawable.org));
+        mhsList.add(new Mahasiswa("72170148","Christian Dorra","dorra.christian@si.ukdw.ac.id","Jl.Seturan III",R.drawable.org));
+        mhsList.add(new Mahasiswa("72170126","Desta SP","desta@si.ukdw.ac.id","Jl.Godean",R.drawable.org));
+        mhsList.add(new Mahasiswa("72170125","Adrian Paskalis","adrian@si.ukdw.ac.id","Jl.Gejayan",R.drawable.org));
     }
     }

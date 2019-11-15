@@ -31,7 +31,7 @@ public class RecyclerViewKrs extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==R.id.menu1){
-            Intent intent = new Intent(RecyclerViewKrs.this,CreateKrsActivity.class);
+            Intent intent = new Intent(RecyclerViewKrs.this,CreateKrs.class);
             startActivity(intent);
         }
         return  true;

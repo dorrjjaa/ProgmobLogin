@@ -31,7 +31,7 @@ public class MatkulAdapter extends RecyclerView.Adapter<MatkulAdapter.ViewHolder
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
-        View view = layoutInflater.inflate(R.layout.card_view_matkul,parent,false); //
+        View view = layoutInflater.inflate(R.layout.cv_matkul,parent,false); //
         context = parent.getContext();
         return new ViewHolder(view);
     }
@@ -67,10 +67,10 @@ public class MatkulAdapter extends RecyclerView.Adapter<MatkulAdapter.ViewHolder
             super(view);
             txtKodeMatkul = view.findViewById(R.id.txtKodeMk);
             txtNamaMatkul = view.findViewById(R.id.txtNamaMk);
-            txtHari = view.findViewById(R.id.txtHariMk);
-            txtSesi = view.findViewById(R.id.txtSesiMk);
-            txtJmlSks = view.findViewById(R.id.txtJmlSks);
-            cv = view.findViewById(R.id.cvMatkul);
+            txtHari = view.findViewById(R.id.txtHari);
+            txtSesi = view.findViewById(R.id.txtSesi);
+            txtJmlSks = view.findViewById(R.id.txtSks);
+            cv = view.findViewById(R.id.cardMatkul);
         }
     }
 }
